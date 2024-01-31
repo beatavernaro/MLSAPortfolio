@@ -31,28 +31,34 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Por onde e como EU estudo C#",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "An article on 'Where and How do I study C#' for those who are starting in the journey of learning .NET Framework.",
+    url: "https://dev.to/monokai_dev/por-onde-e-como-eu-estudo-c-cpp",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Tipos de dados primitivos com Java",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "A study-based article for a bootcamp on primitive data types in Java. I also posted the same article, but in C#, for another platform.",
+    url: "https://dev.to/monokai_dev/tipos-de-dados-primitivos-com-java-3o4g",
   },
   {
-    title: "My Resume Site",
+    title: "RetroFlix",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "Full Stack project simulating a movie rental service using .NET, Angular and MySQL",
+    url: "https://github.com/beatavernaro/Retroflix",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Memoteca",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Small CRUD project using Angular 14. The user can add thoughts and memos to see it later. The main goal was to study about Github Actions to deploy the website through a script",
+    url: "https://github.com/beatavernaro/Memoteca",
+  },
+  {
+    title: "HomeLib",
+    description:
+      "Creation and consumption of an API for registering a personal library. The user can register a book using the ISBN code and consult its data.",
+    url: "https://github.com/beatavernaro/HomeLib",
   },
 ];
 
