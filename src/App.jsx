@@ -11,6 +11,7 @@ import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Home from "./Components/Home";
 import Portfolio from "./Components/Portfolio";
+import Article from "./Components/Articles";
 
 import "./styles.css";
 
@@ -25,7 +26,7 @@ import "./styles.css";
  */
 const siteProps = {
   name: "Beatriz Tavernaro",
-  title: "Full Stack Software Developer",
+  title: "Full Stack Developer",
   email: "betavernaro.dev@gmail.com",
   gitHub: "beatavernaro",
   linkedIn: "beatriz-tavernaro/",
@@ -33,7 +34,7 @@ const siteProps = {
   twitter: "monokai_dev",
 };
 
-const primaryColor = "#4E567E";
+const primaryColor = "#B36B6B";
 const secondaryColor = "#D2F1E4";
 
 const App = () => {
@@ -43,6 +44,7 @@ const App = () => {
       <Home name={siteProps.name} title={siteProps.title} />
       <About />
       <Portfolio />
+      <Article />
       <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
     </div>
   );

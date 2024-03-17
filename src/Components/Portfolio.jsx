@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/desk-lightpink.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,24 +31,6 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "Por onde e como EU estudo C#",
-    description:
-      "An article on 'Where and How do I study C#' for those who are starting in the journey of learning .NET Framework.",
-    url: "https://dev.to/monokai_dev/por-onde-e-como-eu-estudo-c-cpp",
-  },
-  {
-    title: "Tipos de dados primitivos com Java",
-    description:
-      "A study-based article for a bootcamp on primitive data types in Java. I also posted the same article, but in C#, for another platform.",
-    url: "https://dev.to/monokai_dev/tipos-de-dados-primitivos-com-java-3o4g",
-  },
-  {
-    title: "RetroFlix",
-    description:
-      "Full Stack project simulating a movie rental service using .NET, Angular and MySQL",
-    url: "https://github.com/beatavernaro/Retroflix",
-  },
-  {
     title: "Memoteca",
     description:
       "Small CRUD project using Angular 14. The user can add thoughts and memos to see it later. The main goal was to study about Github Actions to deploy the website through a script",
@@ -59,6 +41,12 @@ const projectList = [
     description:
       "Creation and consumption of an API for registering a personal library. The user can register a book using the ISBN code and consult its data.",
     url: "https://github.com/beatavernaro/HomeLib",
+  },
+  {
+    title: "RetroFlix",
+    description:
+      "Full Stack project simulating a movie rental service using .NET, Angular and MySQL",
+    url: "https://github.com/beatavernaro/Retroflix",
   },
 ];
 
@@ -79,8 +67,8 @@ const Portfolio = () => {
             <div className="box" key={project.title}>
               <a href={project.url} target="_blank" rel="noopener noreferrer">
                 <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
+                <p className="small">{project.description}</p>
               </a>
-              <p className="small">{project.description}</p>
             </div>
           ))}
         </div>
